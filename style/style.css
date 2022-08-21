@@ -1,0 +1,179 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-content-section {
+    margin: 102px 88px;
+}
+
+.resumerInfo p {
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.resumerSpec {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0px 0px 19px 0px;
+}
+
+.resumerName {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin: 0px 0px 24px 0px;
+}
+
+
+
+.titleInfo {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0px 0px;
+}
+
+.projects ol {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding: 0px 0px 0px 20px;
+}
+
+.projectsLinks {
+    color: #595959;
+    padding-left: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.projects a {
+    text-decoration: none;
+    color: #595959;
+}
+
+.work {
+    margin-top: 51px;
+}
+
+.workOne {
+    max-width: 530px;
+}
+
+.typeName {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 12px 0px 12px 0px;
+}
+
+.orangeText {
+    color: #FB6D3A;
+}
+
+.typeData {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 11px 0px 8px 0px;
+}
+
+.typeDescr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.workTwo {
+    max-width: 530px;
+    margin-top: 16px;
+}
+
+.workThree {
+    margin-top: 20px;
+    ;
+}
+
+.education {
+    margin: 43px 0px;
+}
+
+aside {
+    min-height: 1319px;
+    background: #1E2939;
+    max-width: 370px;
+}
+
+.sidebarImg {
+    margin-top: 40px;
+}
+
+.sidebarInfo {
+    margin: 45px 0px 0px 40px;
+
+}
+
+.contactTel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contactTel a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+.contactTel p {
+    margin: 8px 0px;
+}
+
+.sidebarInfo ul {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 15px;
+    margin: 8px 0px;
+}
+
+.sidebarTitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.sidebarInfo li {
+    color: #FB6D3A;
+}
+
+.sidebarInfo span {
+    color: #FFFFFF;
+}

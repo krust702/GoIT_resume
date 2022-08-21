@@ -7,48 +7,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOIT Resume Paul</title>
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="main-container">
+        <aside>
+            <div class="sidebar">
+                <div class="sidebarImg">
+                    <img src="../img/photo.jpg" alt="">
+                </div>
+                <div class="sidebarInfo">
+                    <h3 class="sidebarTitle">Contacts</h3>
+                    <div class="contactTel">
+                        <p>C: <a href="tel:+38095959595">+38095959595</a></p>
+                        <p>E: <a href="mailto:krust702@gmail.com">krust702@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="sidebarInfo">
+                    <h3 class="sidebarTitle">Tech Skills</h3>
+                    <ul>
+                        <li> <span>HTML5</span> </li>
+                        <li><span>SCSS</span></li>
+                        <li><span>GITHub</span></li>
+                        <li><span>JavaScript</span></li>
+                        <li><span>React.js</span></li>
+                        <li><span>Node.js</span></li>
+                    </ul>
+                </div>
+                <div class="sidebarInfo">
+                    <h3 class="sidebarTitle">Soft Skills</h3>
+                    <ul>
+                        <li><span>Teamwork</span></li>
+                        <li><span>Multitasking</span></li>
+                        <li><span>3D oriental</span></li>
+                        <li><span>English sp</span></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
         <div class="main-content-section">
             <div class="resumerInfo">
-                <div class="resumerSpec">
+                <h3 class="resumerSpec">
                     Front-End Developer
-                </div>
-                <div class="resumerName">
+                </h3>
+                <h1 class="resumerName">
                     Paul Krust
-                </div>
-                <div class="resumerAbout">
+                </h1>
+                <p class="typeDescr">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                    accumsan
-                    lacus vel facilisis.
-                </div>
+                    et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                    accumsan lacus vel facilisis.
+                </p>
                 <div class="projects">
-                    <div class="titleInfo">
+                    <h3 class="titleInfo">
                         Projects
-                    </div>
+                    </h3>
                     <ol>
-                        <li> <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>[ HTML5,
+                        <li class="projectsLinks"> <a
+                                href="https://hellenglish.goit.global/">https://hellenglish.goit.global/.</a>........................[
+                            HTML5,
                             CSS3 ]
                         </li>
-                        <li><a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a> [ JavaScript ]
+                        <li class="projectsLinks"><a
+                                href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>...........................[
+                            JavaScript
+                            ]
                         </li>
-                        <li> <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>[ React.js,
+                        <li class="projectsLinks"> <a
+                                href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>.................................[
+                            React.js,
                             Node.js ]
                         </li>
                     </ol>
                 </div>
             </div>
             <div class="work">
-                <div class="titleInfo">
-                    Work Experience
-                </div>
-                <div class="workTypes">
+                <h3 class="titleInfo"> Work Experience</h3>
+                <div class="workOne">
                     <div class="typeName">Front-End Developer <span class="orangeText">Freelance</span> </div>
-                    <div class="typeData">September 2019 - up to now | Country</div>
+                    <p class="typeData">September 2019 - up to now | Country</p>
+                    <div class="typeDescr">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
+                    </div>
+                </div>
+                <div class="workTwo">
+                    <div class="typeName">Manager <span class="orangeText">Roga & Kopyta New</span></div>
+                    <div class="typeData">March 2015 - October 2018 | Country</div>
                     <div class="typeDescr">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore
                             magna aliqua.</li>
@@ -56,12 +107,7 @@
                         <li>Risus commodo viverra maecenas.</li>
                     </div>
                 </div>
-                <div class="workTypes">
-                    <div class="typeName">Manager <span class="orangeText">Roga & Kopyta New</span></div>
-                    <div class="typeData">March 2015 - October 2018 | Country</div>
-                    <div class="typeDescr"></div>
-                </div>
-                <div class="workTypes">
+                <div class="workThree">
                     <div class="typeName">Air Traffic Controller <span class="orangeText">Uksatse</span></div>
                     <div class="typeData">June 2016 - February 2022 | Lviv, Ukraine</div>
                     <div class="typeDescr">
@@ -72,54 +118,13 @@
                 </div>
             </div>
             <div class="education">
-                <div class="titleInfo">
-                    Education
-                </div>
-                <div class="typeName">
-                    <span class="orangeText">National Aviation University</span>
-                </div>
-                <div class="educationSpec">
-                    Aero Navigation
-                </div>
+                <div class="titleInfo"> Education</div>
+                <div class="typeName"><span class="orangeText">Aviation University</span> </div>
+                <h3 class="resumerSpec">Aero Navigation</h3>
                 <div class="typeData">September 2011 - June 2016 | Kyiv, Ukraine</div>
             </div>
         </div>
-        <aside>
-            <div class="sidebar">
-                <div class="sidebarImg">
-                    <img src="../img/photo.jpg" alt="">
-                </div>
-                <div class="sidebarContacts">
-                    <div class="sidebarTitle">Contacts</div>
-                    <div class="contactTel">
-                        C: <a href="tel:+38095959595">+38095959595</a>
-                    </div>
-                    <div class="contactEmail">
-                        E: <a href="mailto:krust702@gmail.com">krust702@gmail.com</a>
-                    </div>
-                </div>
-                <div class="sidebarTech">
-                    <div class="sidebarTitle">Tech Skills</div>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>SCSS</li>
-                        <li>GITHub</li>
-                        <li>JavaScript</li>
-                        <li>React.js</li>
-                        <li>Node.js</li>
-                    </ul>
-                </div>
-                <div class="sidebarSoft">
-                    <div class="sidebarTitle">Soft Skills</div>
-                    <ul>
-                        <li>Teamwork</li>
-                        <li>Multitasking</li>
-                        <li>3D oriental</li>
-                        <li>English sp</li>
-                    </ul>
-                </div>
-            </div>
-        </aside>
+
     </div>
 </body>
 
